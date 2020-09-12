@@ -3,7 +3,7 @@ __author__='thiagocastroferreira'
 from flask import Flask, jsonify, request
 from mongoengine import *
 
-connect('betinha', host='mongodb+srv://betinha:neblTwI1xbP5Ryp0@cluster0.pc12b.mongodb.net/<dbname>?retryWrites=true&w=majority')
+connect('betinha', host='mongodb+srv://betinha:<p>@cluster0.pc12b.mongodb.net/<dbname>?retryWrites=true&w=majority')
 
 app = Flask(__name__)
 
